@@ -20,7 +20,7 @@ def get_all():
     return {
         "msg": "ok",
         "data": [l[1].serialize() for l in db.items()]
-             }
+     }
 
 if __name__ == '__main__':
     for l in db.items():

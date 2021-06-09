@@ -1,6 +1,6 @@
-import './App.css';
+import './Assets/css/App.css';
 
-import ListingsDisplay from './ListingsDisplay.js'
+import ListingsDisplay from './Components/Listings/ListingsDisplay.js'
 
 function App() {
   return (
